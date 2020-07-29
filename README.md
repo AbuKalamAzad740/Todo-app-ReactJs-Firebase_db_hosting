@@ -74,18 +74,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 First We need to Login in FireBase and create Projects 
 
 Install firebase Cli 
-# npm install -g firebase-tools
+#### npm install -g firebase-tools
 
 Login the Firebase to allow to deploy Project
-# firebase Login
+#### firebase Login
 
 Logut from the deploy Env
-# firebase logout
+#### firebase logout
 
 Steps to Deploy Project in the FireBase
 
 This to intialize the project to deploy
-# firebase init 
+#### firebase init 
 
 ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices. (Pres
 s <space> to select, <a> to toggle all, <i> to invert selection)
@@ -96,19 +96,18 @@ s <space> to select, <a> to toggle all, <i> to invert selection)
  ◯ Storage: Deploy Cloud Storage security rules
  ◯ Emulators: Set up local emulators for Firebase features
 
-# select Hosting and enter SPACEBAR + ENTER
+#### select Hosting and enter SPACEBAR + ENTER
 
 ? What do you want to use as your public directory? (public) 
-# build
+#### build
 
 ? Configure as a single-page app (rewrite all urls to /index.html)? (y/N)
-# yes
+#### yes
 
-# npm run build
+#### npm run build
 
-# firebase deploy
+#### firebase deploy
 
 we will get one dummy Domain which is from Created by Firebase Default
 
-below is the demo for the abive APP
-https://todo-app-az-75fbc.web.app/
+here is the demo: https://todo-app-az-75fbc.web.app/
